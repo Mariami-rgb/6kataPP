@@ -25,7 +25,7 @@ public class MainApp {
 //      user2.setCar(car2);
 //      userService.add(user1);
 //      userService.add(user2);
-      List<User> users0 = userService.getUserByCar("BMW", 3);
+      List<User> users0 = userService.getUser("BMW", 3);
       for (User user : users0) {
          System.out.println("Id = "+user.getId());
          System.out.println("First Name = "+user.getFirstName());
